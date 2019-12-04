@@ -1,0 +1,22 @@
+{
+  "name": "@BenMagyar/advent-of-code",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Ben Magyar <me@benmagyar.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./scripts/start.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^12.12.14",
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "fs-extra": "^8.1.0"
+  }
+}
