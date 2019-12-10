@@ -156,11 +156,11 @@ function run(
   return run(input, memory, pointer + instruction.length, output);
 }
 
-// answer(1, async function() {
-//   const memory = await initialMemory();
-//   const { output } = run(1, memory, 0);
-//   return `Output ${output}`;
-// });
+answer(1, async function() {
+  const memory = await initialMemory();
+  const { output } = run(1, memory, 0);
+  return `Output ${output}`;
+});
 
 answer(2, async function() {
   const memory = await initialMemory();
